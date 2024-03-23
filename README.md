@@ -1,7 +1,9 @@
 # ESCProject
 ## General Presentation
 
+This project aims to suggest new recommendation of songs based on some that
+the user likes.
 
-API Spotify => DataLake => PostProcessing des données => Entrainement
+The dataset is based on :
 
 https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
