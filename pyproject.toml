@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "escproject"
+version = "0.1.0"
+description = "A project to recommend new songs based on user preferences."
+authors = ["Paul MAZZIA"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
