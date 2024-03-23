@@ -1,4 +1,5 @@
-numpy
 fastapi
-uvicorn[standard]
+numpy
+pandas
 scikit-learn
+uvicorn[standard]
